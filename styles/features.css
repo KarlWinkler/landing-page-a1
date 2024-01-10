@@ -1,3 +1,21 @@
 .features-section {
-  background-color: var(--light-green);
+  background-color: var(--light-blue);
+
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.features-section .flex-column {
+  align-self: stretch;
+
+  padding: var(--size-2);
+}
+
+.features-section .item:nth-child(even) {
+  justify-content: end;
+}
+
+.shop-button {
+  font-size: 64px;
+  padding: var(--size-1) var(--size-2);
 }

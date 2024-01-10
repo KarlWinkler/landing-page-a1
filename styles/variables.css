@@ -5,10 +5,16 @@ body {
   --dark: #131515;
   --dark-secondary: #2B2C28;
   --secondary-gradient: #4f708e;
+  --button-bright: #347ec4;
   --light: #FFFAFB;
   --light-green: #B7FFAC;
-  --light-blue: #a1ecff;
+  --light-blue: #E7F1F8;
   --text-bg: #13151560;
 
-  --padding-1: 16px;
+  --size-1: 16px;
+  --size-2: 32px;
+  --size-3: 48px;
+  --size-4: 64px;
+
+  --size-large: 32px;
 }

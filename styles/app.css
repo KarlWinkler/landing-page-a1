@@ -10,10 +10,21 @@ h1 {
   color: var(--secondary-gradient);
   font-size: 48px;
   font-weight: 600;
+
+  margin: 0 0 32px 0;
+}
+
+.blur {
+  backdrop-filter: blur(8px);
+  background-color: var(--text-bg);
 }
 
 @media screen and (max-width: 1060px){
   .app {
     background-position: 60% 0%;
+  }
+
+  .blur {
+    backdrop-filter: none;
   }
 }

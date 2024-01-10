@@ -1,8 +1,8 @@
 .grid {
   display: grid;
-  padding: var(--padding-1);
+  padding: var(--size-1);
 }
 
 .grid-item {
-  padding: var(--padding-1);
+  padding: var(--size-1);
 }

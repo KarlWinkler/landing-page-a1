@@ -6,7 +6,7 @@ button {
   outline: inherit;
   cursor: pointer;
 
-  background-color: var(--secondary-gradient);
+  background-color: var(--button-bright);
   padding: 16px;
   border-radius: 50px;
   border: none;
@@ -30,8 +30,8 @@ button::after {
   color: var(--dark);
 
   background-image: linear-gradient(
-    var(--secondary) 50%,
-    var(--secondary-gradient) 50%
+    var(--light) 50%,
+    var(--button-bright) 50%
   );
 
   transition: all .1s ease-in;

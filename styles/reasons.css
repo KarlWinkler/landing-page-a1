@@ -16,12 +16,9 @@
 
 .reasons-section .grid {
   grid-template-columns: auto auto;
-  padding: 32px;
-  padding-top: 0;
 }
 
 .reasons-section .grid-item {
-  width: fit-content;
   width: MAX(172px, 25vw);
 
   border-radius: 16px;
@@ -30,12 +27,8 @@
   justify-content: start;
   align-items: start;
 
-  color: var(--light);
-
   font-size: 32px;
   font-weight: 100;
-
-  padding: 16px;
 }
 
 .reasons-section .grid-item:nth-child(odd) {
@@ -79,12 +72,6 @@
 }
 
 .reasons-section .grid-item:nth-child(5) {
-  background-image: linear-gradient(
-    67deg,
-    var( --secondary-gradient) 0%,
-    var(--secondary) 100%
-  );
-
   margin-bottom: 0;
 }
 
@@ -103,7 +90,7 @@
   }
 
   .reasons-section .grid-item {
-    padding: 32px 72px;
+    padding: var(--size-1) 72px;
   }
 
   .reasons-section .grid-item:nth-child(odd) {
@@ -113,5 +100,4 @@
   .reasons-section .grid-item:nth-child(even) {
     margin: 24px;
   }
-  
 }

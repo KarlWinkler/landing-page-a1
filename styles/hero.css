@@ -13,17 +13,14 @@
 
   justify-content: center;
   padding: 48px;
-  padding-right: 160px;
+  padding-right: 112px;
 
-  backdrop-filter: blur(8px);
-  background-color: var(--text-bg);
   box-shadow: 1px 1px 16px var(--dark-secondary);
 
   z-index: 0;
 }
 
 .hero-text {
-  flex-direction: column;
   justify-content: center;
   text-align: left;
 
@@ -32,6 +29,8 @@
 
 .hero-title {
   color: inherit;
+
+  gap: 16px;
 }
 
 .hero-message {
@@ -53,9 +52,5 @@
 @media screen and (max-width: 1060px){
   .hero-section {
     height: 50vh;
-  }
-
-  .hero-card {
-    backdrop-filter: none;
   }
 }

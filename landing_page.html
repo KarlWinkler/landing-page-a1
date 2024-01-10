@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styles/app.css">
     <link rel="stylesheet" href="styles/grid.css">
     <link rel="stylesheet" href="styles/flex.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/item.css">
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/reasons.css">
     <link rel="stylesheet" href="styles/features.css">
@@ -17,12 +19,14 @@
 <!-- the background colour of the page should compliment the other colours being used -->
 <body class="app">
     <div class="hero-section flex">
-      <div class="hero-card flex">
-        <div class="hero-logo">
-            <img src="images/logo.svg" alt="our-logo">
-        </div>
-        <div class="hero-text flex">
-          <h1 class="hero-title">Welcome to Application</h1>
+      <div class="hero-card blur flex">
+        <div class="hero-text flex-column">
+          <h1 class="hero-title flex">
+            <div class="hero-logo">
+              <img src="images/logo.svg" alt="our-logo">
+            </div>
+            Welcome to Application
+          </h1>
           <p class="hero-message">We're here to make your day!</p>
         </div>
       </div>
@@ -30,38 +34,53 @@
     <p class="hero-reference">Photo by Sebastian Voortman: https://www.pexels.com/photo/woman-jumping-wearing-green-backpack-214574/</p>
 
     <!-- Each of these sections should have colours that compliment the colour of our background image and the foreground image -->
-    <div class="section reasons-section flex">
-      <p class="reasons-header">Reasons To Choose Us</p>
+    <div class="section reasons-section flex-column">
+      <h1>Reasons To Choose Us</h1>
       <div class="grid">
-        <div class="grid-item flex">
+        <div class="grid-item card flex">
           <img class="reasons-grid-icon" src="images/quality-icon.svg" alt="quality icon">
           <p>Quality Assurance</p>
         </div>
-        <div class="grid-item flex">
+        <div class="grid-item card flex">
           <img class="reasons-grid-icon" src="images/time-icon.svg" alt="24 hour clock icon">
           <p>24/7 Customer Support</p>
         </div>
-        <div class="grid-item flex">
+        <div class="grid-item card flex">
           <img class="reasons-grid-icon" src="images/money-icon.svg" alt="dollar sign icon">
           <p>Affordable Pricing</p>
         </div>
-        <div class="grid-item flex">
+        <div class="grid-item card flex">
           <img class="reasons-grid-icon" src="images/team-icon.svg" alt="team icon">
           <p>Expert Team</p>
         </div>
-        <div class="grid-item flex">
+        <div class="grid-item card flex">
           <img class="reasons-grid-icon" src="images/speed-icon.svg" alt="truck going fast icon">
           <p>Fast Delivery</p>
         </div>
       </div>
     </div>
-    <div class="section features-section">
-      <h2>Our Products include:</h2>
-      <p>&#x2022;Advanced technology,&#x2022;100% Reliable, &#x2022;Cost-effective, &#x2022;User-friendly</p>
-      <button class="btn" data-hover="Shop Now!">Shop Now!</button>
+    <div class="section features-section flex-column">
+      <h1>Our Products Are</h1>
+      <div class="flex-column">
+        <div class="item flex">
+          <p>Advanced technology</p>
+        </div>
+        <div class="item flex">
+          <p>100% Reliable</p>
+        </div>
+        <div class="item flex">
+          <p>Cost-effective</p>
+        </div>
+        <div class="item flex">
+          <p>User-friendly</p>
+        </div>
+      </div>
+    </div>
+    <div class="blur flex-column grid-item">
+      <button class="shop-button" data-hover="Shop Now!">Shop Now!</button>
     </div>
     <div class="section about-section">
-        <h2>About Us</h2>
+        <h1>About Us</h1>
         <p>Information about the company.</p>
         <p>Click this link, it opens in a new window: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Docs</a></p>
         <!-- Insert the company image here, it's in the images directory called image-<size>.png -->
