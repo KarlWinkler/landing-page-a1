@@ -1,0 +1,117 @@
+.reasons-section {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--light);
+  justify-content: center;
+  z-index: 1;
+  color: var(--secondary-gradient);
+}
+
+.reasons-header {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.reasons-section .grid {
+  grid-template-columns: auto auto;
+  padding: 32px;
+  padding-top: 0;
+}
+
+.reasons-section .grid-item {
+  width: fit-content;
+  width: MAX(172px, 25vw);
+
+  border-radius: 16px;
+
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+
+  color: var(--light);
+
+  font-size: 32px;
+  font-weight: 100;
+
+  padding: 16px;
+}
+
+.reasons-section .grid-item:nth-child(odd) {
+  margin: 0 48px 96px 0;
+}
+
+.reasons-section .grid-item:nth-child(even) {
+  margin: 96px 0 0 48px;
+}
+
+.reasons-section .grid-item:nth-child(1) {
+  background-image: linear-gradient(
+    112deg,
+    var( --secondary-gradient) 0%,
+    var(--secondary) 100%
+  );
+}
+
+.reasons-section .grid-item:nth-child(2) {
+  background-image: linear-gradient(
+    202deg,
+    var( --secondary-gradient) 0%,
+    var(--secondary) 100%
+  );
+}
+
+.reasons-section .grid-item:nth-child(3) {
+  background-image: linear-gradient(
+    22deg,
+    var( --secondary-gradient) 0%,
+    var(--secondary) 100%
+  );
+}
+
+.reasons-section .grid-item:nth-child(4) {
+  background-image: linear-gradient(
+    292deg,
+    var( --secondary-gradient) 0%,
+    var(--secondary) 100%
+  );
+}
+
+.reasons-section .grid-item:nth-child(5) {
+  background-image: linear-gradient(
+    67deg,
+    var( --secondary-gradient) 0%,
+    var(--secondary) 100%
+  );
+
+  margin-bottom: 0;
+}
+
+.reasons-grid-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.reasons-grid-header p {
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 1060px) {
+  .reasons-section .grid {
+    grid-template-columns: auto;
+  }
+
+  .reasons-section .grid-item {
+    padding: 32px 72px;
+  }
+
+  .reasons-section .grid-item:nth-child(odd) {
+    margin: 24px;
+  }
+  
+  .reasons-section .grid-item:nth-child(even) {
+    margin: 24px;
+  }
+  
+}

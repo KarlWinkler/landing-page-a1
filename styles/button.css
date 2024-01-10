@@ -1,0 +1,65 @@
+button {
+  position: relative;
+
+  color: inherit;
+  font: inherit;
+  outline: inherit;
+  cursor: pointer;
+
+  background-color: var(--secondary-gradient);
+  padding: 16px;
+  border-radius: 50px;
+  border: none;
+  transition: all 1s;
+  color: transparent;
+
+  overflow: hidden;
+  z-index: 10;
+}
+
+button::after {
+  content: attr(data-hover);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+ 
+  padding: 16px 0;
+  color: var(--dark);
+
+  background-image: linear-gradient(
+    var(--secondary) 50%,
+    var(--secondary-gradient) 50%
+  );
+
+  transition: all .1s ease-in;
+  transform: translateY(50%);
+  z-index: 1; 
+}
+
+button::before {
+  content: attr(data-hover);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  padding: 16px 0;
+
+  color: var(--light);
+  background-color: transparent;
+  transition: all .1s ease-in;
+
+  z-index: -1;
+}
+
+button:hover::before {
+  transform: translateY(-50%);
+}
+
+button:hover::after {
+  transform: translateY(0%);
+}

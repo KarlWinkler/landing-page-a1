@@ -1,0 +1,14 @@
+body {
+  /* --primary: #7DE2D1; */
+  --primary: #ADE2DF;
+  --secondary: #afc0d0;
+  --dark: #131515;
+  --dark-secondary: #2B2C28;
+  --secondary-gradient: #4f708e;
+  --light: #FFFAFB;
+  --light-green: #B7FFAC;
+  --light-blue: #a1ecff;
+  --text-bg: #13151560;
+
+  --padding-1: 16px;
+}

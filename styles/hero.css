@@ -1,0 +1,61 @@
+.hero-section {
+  justify-content: start;
+  align-items: center;
+  
+  height: 100vh;
+  
+  background-color: transparent;
+  color: var(--light);
+}
+
+.hero-card {
+  height: 100%;
+
+  justify-content: center;
+  padding: 48px;
+  padding-right: 160px;
+
+  backdrop-filter: blur(8px);
+  background-color: var(--text-bg);
+  box-shadow: 1px 1px 16px var(--dark-secondary);
+
+  z-index: 0;
+}
+
+.hero-text {
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+
+  font-size: 24px;
+}
+
+.hero-title {
+  color: inherit;
+}
+
+.hero-message {
+  font-size: 36px;
+}
+
+.hero-logo {
+  height: 48px;
+  width: 48px;
+}
+
+.hero-reference {
+  position: relative;
+  color: var(--light);
+  margin: 8px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1060px){
+  .hero-section {
+    height: 50vh;
+  }
+
+  .hero-card {
+    backdrop-filter: none;
+  }
+}

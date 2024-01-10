@@ -1,0 +1,19 @@
+.app {
+  background-image: url("../images/hero-image.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: var(--secondary-gradient);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1060px){
+  .app {
+    background-position: 60% 0%;
+  }
+}
