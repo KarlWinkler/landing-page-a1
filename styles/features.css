@@ -127,6 +127,14 @@
     background-image: url("../images/reliable-image-mobile.jpg");
   }
 
+  .cost-image {
+    background-image: url("../images/cost-effective-image-mobile.jpg");
+  }
+
+  .friendly-image {
+    background-image: url("../images/friendly-image-mobile.jpg");
+  }
+
   .features-image::after {
     background-color: transparent;
   }

@@ -30,9 +30,11 @@
 }
 
 .hero-title {
-  color: inherit;
-
   gap: 16px;
+}
+
+.hero-title h1 {
+  color: inherit;
 }
 
 .hero-message {
