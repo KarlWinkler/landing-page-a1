@@ -15,6 +15,8 @@
   padding: 48px;
   padding-right: 112px;
 
+  background-image: url(../images/flourish.png);
+  background-size: cover;
   box-shadow: 1px 1px 16px var(--dark-secondary);
 
   z-index: 0;

@@ -1,0 +1,8 @@
+.contact-section {
+  background-color: var(--light-blue);
+}
+
+.contact {
+  /* width: 100%; */
+  justify-content: space-between;
+}

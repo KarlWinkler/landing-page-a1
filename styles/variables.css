@@ -7,6 +7,8 @@ body {
   --secondary-gradient: #4f708e;
   --button-bright: #347ec4;
   --light: #FFFAFB;
+  --light-transparent: #FFFAFB90;
+  --dark-transparent: #13151580;
   --light-green: #B7FFAC;
   --light-blue: #E7F1F8;
   --text-bg: #13151560;
@@ -17,4 +19,7 @@ body {
   --size-4: 64px;
 
   --size-large: 32px;
+
+  --tablet: 1060px;
+  --mobile: 768px;
 }

@@ -9,7 +9,7 @@ button {
   background-color: var(--button-bright);
   padding: 16px;
   border-radius: 50px;
-  border: none;
+  border: 2px solid var(--light);
   transition: all 1s;
   color: transparent;
 

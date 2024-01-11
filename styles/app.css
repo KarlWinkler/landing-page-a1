@@ -14,6 +14,11 @@ h1 {
   margin: 0 0 32px 0;
 }
 
+.positioned {
+  position: relative;
+  z-index: 10;
+}
+
 .blur {
   backdrop-filter: blur(8px);
   background-color: var(--text-bg);
@@ -26,5 +31,11 @@ h1 {
 
   .blur {
     backdrop-filter: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .app {
+    background-image: url("../images/hero-image-mobile.jpg");
   }
 }

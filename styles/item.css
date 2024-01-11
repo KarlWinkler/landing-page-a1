@@ -3,6 +3,12 @@
   box-sizing: border-box;
 
   font-size: var(--size-large);
+  justify-content: center;
 
-  padding: var(--size-1) var(--size-4);
+  border-radius: 8px;
+  overflow: hidden;
+
+  font-weight: 600;
+
+  padding: 0 var(--size-4);
 }

@@ -6,30 +6,35 @@
 }
 
 .features-section .grid {
-  grid-template-columns: 1fr 1fr;
+  grid-template: 
+    "technology  ."
+    ".      reliability"
+    "cost        ."
+    ".      friendly" / 1fr 1fr;
 
   padding: var(--size-2);
 }
 
-.features-section .item {
-  justify-content: space-between;
-}
-
 .features-section .item p {
   height: fit-content;
+  padding: var(--size-1);
+
+  transition: all .2s ease-out;
 }
 
 .features-image {
-  position: relative;
+  position: absolute;
   overflow: hidden;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
 
   background-size: cover;
   background-position: center;
-  /* margin: var(--size-2); */
-}
-
-.technology-image {
-  background-image: url("../images/technology-image.jpg");
+  z-index: -1;
 }
 
 .features-image::after {
@@ -42,17 +47,54 @@
   height: 100%;
 
   background-color: var(--light-blue);
-  opacity: 0.3;
+  opacity: 0.65;
 
   transition: all .2s ease-out;
 }
 
-.features-image:hover:nth-child(odd)::after {
+.features-section .item:hover .features-image::after {
   transform: translateX(-100%);
 }
 
-.features-image:hover::after {
+.features-section .item:hover .reverse.features-image::after {
   transform: translateX(100%);
+}
+
+.features-section .item:hover p {
+  color: var(--light);
+  background-color: var(--dark-transparent);
+}
+
+.technology-image {
+  background-image: url("../images/technology-image.jpg");
+}
+
+.reliability-image {
+  background-image: url("../images/reliable-image.jpg");
+}
+
+.cost-image {
+  background-image: url("../images/cost-effective-image.jpg");
+}
+
+.friendly-image {
+  background-image: url("../images/friendly-image.jpg");
+}
+
+.technology-item {
+  grid-area: technology;
+}
+
+.reliability-item {
+  grid-area: reliability;
+}
+
+.cost-item {
+  grid-area: cost;
+}
+
+.friendly-item {
+  grid-area: friendly;
 }
 
 .shop-button {
@@ -61,10 +103,28 @@
 }
 
 @media screen and (max-width: 768px) {
+  .features-section .grid {
+    grid-template-areas:
+      "technology " 
+      "reliability" 
+      "cost       " 
+      "friendly   ";
+
+    grid-template-columns: 1fr;
+    gap: var(--size-1);
+  }
+
+  .features-section .item p {
+    border-radius: var(--size-1);
+    background-color: var(--light-transparent);
+  }
+
   .technology-image {
-    background-size: contain;
-    background-repeat: no-repeat;
     background-image: url("../images/technology-image-mobile.jpg");
+  }
+
+  .reliability-image {
+    background-image: url("../images/reliable-image-mobile.jpg");
   }
 
   .features-image::after {
