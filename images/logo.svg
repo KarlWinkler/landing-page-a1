@@ -1,7 +1,11 @@
-<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-  <g id="SVGRepo_iconCarrier">
-    <path d="M20.0001 18.9996C20.0148 17.4044 19.2775 16.6658 18.5324 16.4236C17.8763 16.2103 16.5325 16.4052 15.5372 15.896C14.5854 15.4091 14.0482 14.1203 14.0029 12.6571M15.9995 20L15.9994 20.01M7.64985 19L7.64976 19.01M19.6601 7L19.66 7.01M12.4999 19C12.4999 17.5 11.9999 16.5 11.0647 15.5949M16.4219 10.2377C17.4999 11 18.4999 11.5 20.0825 11.0082M14.7279 6.24271C13.6027 5.11749 12.0765 4.48535 10.4852 4.48535C8.89393 4.48535 7.36781 5.11749 6.24259 6.24271C5.11737 7.36793 4.48523 8.89405 4.48523 10.4854C4.48523 12.0766 5.11737 13.6028 6.24259 14.728L14.7279 6.24271Z" stroke="#FFFAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.0"
+  xmlns="http://www.w3.org/2000/svg">
+  <symbol id="logo" viewBox="0 0 60 60">
+    <path transform="translate(0 -.17995)" d="m11.719 4.9375-7.4065 7.4375v42.031c0 1.108 0.892 2 2 2h47.468c1.109 0 2.001-0.892 2.001-2v-47.468c0-1.1085-0.892-2.0005-2-2.0005h-42.062z" fill="#b3b3b3" fill-rule="evenodd" stroke="#333" stroke-width="3.125"/>
+    <path transform="matrix(1.0984 0 0 1.0984 -5.3453 -4.0048)" d="m54.344 31.569a21.953 21.953 0 1 0-43.907 0 21.953 21.953 0 1 0 43.907 0h-21.954z" fill="#7f7f7f" fill-rule="evenodd" stroke="#333" stroke-width="1.7071"/>
+    <path transform="matrix(.74286 0 0 .74286 70.6 -10.417)" d="m-41.747 56.761a12.596 12.596 0 1 0-25.193 0 12.596 12.596 0 1 0 25.193 0h-12.597z" fill="#4c4c4c" fill-rule="evenodd" stroke="#333" stroke-width="1.6827"/>
+    <path transform="matrix(.55 0 0 .55 60.21 .43999)" d="m-41.747 56.761a12.596 12.596 0 1 0-25.193 0 12.596 12.596 0 1 0 25.193 0h-12.597z" fill="#b3b3b3" fill-rule="evenodd" stroke="#333" stroke-width="1.6827"/>
+    <rect transform="translate(0 -.17995)" x="23.213" y="5.2965" width="14.396" height="21.593" rx="1" fill="#4c4c4c" fill-rule="evenodd" stroke="#333" stroke-width="1.875"/>
+  </symbol>
 </svg>

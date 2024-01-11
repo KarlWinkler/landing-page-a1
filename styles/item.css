@@ -1,13 +1,8 @@
 .item {
   width: 100%;
-  border-bottom: 4px solid var(--dark);
   box-sizing: border-box;
 
   font-size: var(--size-large);
 
   padding: var(--size-1) var(--size-4);
-}
-
-.flex-column .item:nth-child(1)  {
-  border-top: 4px solid var(--dark);
 }
