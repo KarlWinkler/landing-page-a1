@@ -42,8 +42,11 @@
 }
 
 .hero-logo {
-  height: 48px;
-  width: 48px;
+  height: var(--size-3);
+  width: var(--size-3);
+
+  min-height: 48px;
+  min-width: 48px;
 }
 
 .hero-reference {
