@@ -1,4 +1,7 @@
 .about-section {
-  background-color: var(--primary);
-  padding: 16px;
+  background-color: var(--light-blue);
+}
+
+.about-image img {
+  border-radius: var(--size-1);
 }

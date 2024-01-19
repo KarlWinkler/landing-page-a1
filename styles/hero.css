@@ -15,8 +15,6 @@
   padding: 48px;
   padding-right: 112px;
 
-  background-image: url(../images/flourish.png);
-  background-size: cover;
   box-shadow: 1px 1px 16px var(--dark-secondary);
 
   z-index: 0;
@@ -38,7 +36,7 @@
 }
 
 .hero-message {
-  font-size: 36px;
+  font-size: var(--font-large);
 }
 
 .hero-logo {
@@ -54,6 +52,8 @@
   color: var(--light);
   margin: 8px;
   z-index: 1;
+
+  white-space: nowrap
 }
 
 @media screen and (max-width: 1060px){

@@ -10,6 +10,5 @@
     var(--secondary) 100%
   );
 
-  font-size: var(--size-large);
-  font-weight: 100;
+  font-size: var(--font-large);
 }

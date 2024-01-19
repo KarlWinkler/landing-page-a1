@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
 
+  background-image: url(../images/flourish-dark.png);
+  background-size: cover;
+  background-position: center;
+
   background-color: var(--light);
   justify-content: center;
   z-index: 1;
@@ -27,8 +31,7 @@
   align-items: center;
   gap: var(--size-1);
 
-  font-size: 32px;
-  font-weight: 100;
+  font-size: var(--font-large);
 }
 
 .reasons-section .grid-item:nth-child(odd) {

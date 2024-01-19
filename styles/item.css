@@ -2,9 +2,10 @@
   width: 100%;
   box-sizing: border-box;
 
-  font-size: var(--size-large);
+  font-size: var(--font-large);
   justify-content: center;
 
+  border: 1px solid var(--secondary);
   border-radius: 4px;
   overflow: hidden;
 
