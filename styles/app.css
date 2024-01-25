@@ -10,7 +10,7 @@
 
 h1 {
   color: var(--secondary-gradient);
-  font-size: 48px;
+  font-size: var(--font-title);
   font-weight: 600;
 
   margin: 0 0 32px 0;
