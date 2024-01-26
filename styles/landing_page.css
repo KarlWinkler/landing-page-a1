@@ -481,7 +481,7 @@ h1 {
 
 
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1060px), (min-resolution: 2dppx) {
   .app {
     background-position: 60% 0%;
   }
