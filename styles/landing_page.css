@@ -517,7 +517,7 @@ h1 {
   }
 }
 
-@media screen and (max-width: 768px), (min-resolution: 1.5dppx){
+@media screen and (max-width: 768px), (min-resolution: 2dppx), (-webkit-min-resolution: 2dppx) {
   .app {
     background-image: url("../images/hero-image-mobile.jpg");
   }
