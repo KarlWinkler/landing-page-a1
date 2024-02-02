@@ -121,7 +121,7 @@ h1 {
 }
 
 .app {
-  background-image: url("/images/hero-image.jpg");
+  background-image: url("images/hero-image.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: top;
@@ -178,10 +178,10 @@ h1 {
   width: 100%;
   box-sizing: border-box;
 
-  justify-content: center;                      /* investigate */
+  justify-content: center;
   
   border: 1px solid var(--secondary);
-  border-radius: var(--border-radius-small);                            /* change */
+  border-radius: var(--border-radius-small);
   overflow: hidden;
   
   font-size: var(--font-large);
@@ -191,7 +191,7 @@ h1 {
 }
 
 .hero-section {
-  justify-content: start;                         /* investigate */
+  justify-content: start;
   align-items: center;
   
   height: 100vh;
@@ -204,7 +204,7 @@ h1 {
   height: 100%;
 
   justify-content: center;
-  padding: var(--size-3);                                    /* change */
+  padding: var(--size-3);
   padding-right: 112px;
 
   box-shadow: 1px 1px var(--size-1) var(--dark-secondary);
@@ -248,7 +248,7 @@ h1 {
 
 .reasons-section {
   position: relative;
-  flex-direction: column;                             /* investigate */
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -333,7 +333,7 @@ h1 {
 }
 
 .reasons-grid-header p {
-  margin-top: var(--size-1);                           /* change */
+  margin-top: var(--size-1);
 }
 
 .features-section {
