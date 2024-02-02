@@ -252,7 +252,7 @@ h1 {
   justify-content: center;
   align-items: center;
 
-  background-image: url(/images/flourish-dark.png);
+  background-image: url(images/flourish-dark.png);
   background-size: cover;
   background-position: center;
 
@@ -339,7 +339,7 @@ h1 {
 .features-section {
   background-color: var(--primary);
 
-  background-image: url(/images/flourish.png);
+  background-image: url(images/flourish.png);
   background-size: cover;
   background-position: center;
 
@@ -409,19 +409,19 @@ h1 {
 
 /* setting background images */
 .technology-image {
-  background-image: url("/images/technology-image.jpg");
+  background-image: url("images/technology-image.jpg");
 }
 
 .reliability-image {
-  background-image: url("/images/reliable-image.jpg");
+  background-image: url("images/reliable-image.jpg");
 }
 
 .cost-image {
-  background-image: url("/images/cost-effective-image.jpg");
+  background-image: url("images/cost-effective-image.jpg");
 }
 
 .friendly-image {
-  background-image: url("/images/friendly-image.jpg");
+  background-image: url("images/friendly-image.jpg");
 }
 
 .technology-item {
@@ -519,7 +519,7 @@ h1 {
 
 @media screen and (max-width: 768px), (min-resolution: 2dppx), (hover: none) {
   .app {
-    background-image: url("/images/hero-image-mobile.jpg");
+    background-image: url("images/hero-image-mobile.jpg");
   }
 
   .features-section .grid {
@@ -543,7 +543,7 @@ h1 {
   }
 
   .technology-image {
-    background-image: url("/images/technology-image-mobile.jpg");
+    background-image: url("images/technology-image-mobile.jpg");
   }
 
   .reliability-image {
@@ -551,11 +551,11 @@ h1 {
   }
 
   .cost-image {
-    background-image: url("/images/cost-effective-image-mobile.jpg");
+    background-image: url("images/cost-effective-image-mobile.jpg");
   }
 
   .friendly-image {
-    background-image: url("/images/friendly-image-mobile.jpg");
+    background-image: url("images/friendly-image-mobile.jpg");
   }
 
   .features-image::after {
