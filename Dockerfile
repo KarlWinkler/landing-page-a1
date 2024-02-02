@@ -5,7 +5,7 @@ WORKDIR [/app]
 COPY images/* ./images/
 COPY styles.css .
 COPY 30088699_styles.css .
-COPY 30088699_landing_page.html index.html
+COPY index.html .
 
 run npm install -g http-server
 

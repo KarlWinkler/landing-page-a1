@@ -547,7 +547,7 @@ h1 {
   }
 
   .reliability-image {
-    background-image: url("/images/reliable-image-mobile.jpg");
+    background-image: url("images/reliable-image-mobile.jpg");
   }
 
   .cost-image {
